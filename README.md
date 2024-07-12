@@ -5,3 +5,11 @@ Installations
 2. Anaconda
 3. VS Code
 
+
+
+
+
+# Create a new environment
+
+
+
