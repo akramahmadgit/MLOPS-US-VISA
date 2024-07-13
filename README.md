@@ -10,6 +10,8 @@ Installations
 
 
 # Create a new environment
-
+    conda create -n env_visa python=3.11.5
+    conda activate env_visa 
+    
 
 

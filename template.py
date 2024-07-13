@@ -33,9 +33,6 @@ list_of_files = [
     "setup.py",
     "config/model.yaml",
     "config/schema.yaml",
-
-
-
 ]
 
 for filepath in list_of_files:
