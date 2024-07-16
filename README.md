@@ -27,3 +27,24 @@ add code to show us_visa_Project as installed package
 
     )
 
+# mongo db setup
+    install driver
+        python -m pip install "pymongo[srv]"==3.6
+
+# full code sample
+from pymongo.mongo_client import MongoClient
+uri = "mongodb+srv://visaproject:<password>@cluster0.fldzbco.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+# Create a new client and connect to the server
+client = MongoClient(uri)
+# Send a ping to confirm a successful connection
+try:
+    client.admin.command('ping')
+    print("Pinged your deployment. You successfully connected to MongoDB!")
+except Exception as e:
+    print(e)
+
+# Note 
+To save data in mongodb first we have to convert in dictionARY FORMAT
+use pandas converter ---- to_dict
+
+# define Data connection variables
