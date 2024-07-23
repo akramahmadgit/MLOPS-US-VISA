@@ -1,5 +1,20 @@
 # MLOPS-US-VISA
 
+## US VISA approval prediction project
+
+### Lifecycle of Machine Learning Project
+    1. Understanding the problem statement
+    2. Data collection
+    3. Exploratory data analysis
+    4. Data cleaning
+    5. Data pre processing
+    6. Model training
+    7. Choosing best model
+    8. 
+
+
+    
+
 Installations
 1. Git and GitHub
 2. Anaconda
@@ -48,3 +63,8 @@ To save data in mongodb first we have to convert in dictionARY FORMAT
 use pandas converter ---- to_dict
 
 # define Data connection variables
+
+
+
+
+
