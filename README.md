@@ -69,3 +69,14 @@ use pandas converter ---- to_dict
 
 
 # Data pre-processing and Feature Engineering
+
+data injestion
+    Data drift with evidently - MLOPS tool
+
+Data validation
+Data transformation
+Model Training
+Model evaluation
+Model Pusher
+
+    
