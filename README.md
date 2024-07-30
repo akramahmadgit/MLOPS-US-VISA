@@ -79,4 +79,19 @@ Model Training
 Model evaluation
 Model Pusher
 
-    
+
+## Work Flow
+Initiate constants
+Create entities
+
+
+
+
+
+
+
+
+
+
+IMPORTANT : 
+1. keep mongodb database link in environment variable
