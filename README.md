@@ -81,8 +81,22 @@ Model Pusher
 
 
 ## Work Flow
-Initiate constants
-Create entities
+1. Initiate constants
+2. Create entities
+    2.1 artifact entity
+    2.2 config entity
+3. Component
+    3.1 data_injestion
+    3.2 data_transformation
+    3.3 data_validation
+    3.4 model_evaluation
+    3.5 model_pusher
+    3.6 model_trainer
+4. pipeline
+    4.1 trainings pipeline
+    4.2 prediction pipeline
+
+
 
 
 
@@ -94,4 +108,4 @@ Create entities
 
 
 IMPORTANT : 
-1. keep mongodb database link in environment variable
+1. keep mongodb database link in environment variable   
