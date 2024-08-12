@@ -1,4 +1,4 @@
-from dataclass import Dataclass
+from dataclasses import dataclass
 
 @dataclass 
 class DataInjestionArtifact:
